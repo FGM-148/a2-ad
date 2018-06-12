@@ -10,7 +10,7 @@ public class MainController {
     @RequestMapping("/")
     public String index(Model model){
         model.addAttribute("greeting", "Strona główna");
-        model.addAttribute("tagline", "ążźęłóę");
+        model.addAttribute("tagline", "Test ammenda");
 
         return "index";
     }
